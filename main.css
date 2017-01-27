@@ -1,6 +1,7 @@
 body {
 	margin-top: 0px;
 	margin-left: 0px;
+	margin-right: 0px;
 }
 
 main{
@@ -21,9 +22,25 @@ main{
 /*	height: 60px;*/	
 	margin-top: 16px;
 	margin-bottom: 16px;
+	width: 50%;
+	display: inline-block;
 }
 
 .header header > h2{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+.header ul{
+	position: fixed;
+	right: 40px;
+	top: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: inline-block;
+}
+
+.header ul > li{
+	display: inline;
+	padding-right: 5px;
 }
