@@ -1,4 +1,5 @@
 body {
+	font-family: helvetica;
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -52,11 +53,33 @@ main{
 
 .magnifglass{
 	border-radius: 5px;
-	border: 1px solid ;
+	border: 1px solid;
 	width: 26px;
 	height: 26px;
 	background: url("images/magnifying-glass.png") no-repeat;
 	background-size: cover;
 	/*margin-top: 3px;*/
 	padding: 8px;
+}
+
+.navigation{
+	position: absolute;
+	margin-top: 20px;
+	font-size: 0;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.navigation input{
+	background: white;
+	/*border: 2px solid black;*/
+	margin: 0px;
+	font-size: 16px;
+	/*border-radius: 3px;*/
+	border: 0;
+}
+
+input.center{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
